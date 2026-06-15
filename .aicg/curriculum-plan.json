@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "role_id": "agentic-ai-engineer",
+  "title": "Agentic AI Engineer",
+  "level": 30,
+  "notes": "Build-altitude track: hands-on implementation of production agentic systems. Owns the fundamentals the higher-level `agentic-systems-architect` track (level 48) links to for depth/architecture framing. Seeded from role research 2026-06-14; job-market evidence and Imagine Learning posting requirements tracked in JOB_REQUIREMENTS.md / .aicg/job-requirements.json. Refine on first nightly research cycle.",
+  "modules": [
+    {
+      "id": "mod-201-agent-fundamentals",
+      "title": "Agent Fundamentals: The Reason-Act Loop",
+      "hours": 12,
+      "objectives": [
+        "Implement the ReAct loop (Thought/Action/Observation) from scratch",
+        "Build tool/function calling with Python functions as tools",
+        "Handle LLM messages, special tokens, context windows, and token limits",
+        "Reason about planning-based vs. reactive agents"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "react-loop-from-scratch", "hours": 3},
+        {"id": "exercise-02", "slug": "function-calling-tools", "hours": 3},
+        {"id": "exercise-03", "slug": "coding-agent-read-write-execute", "hours": 4},
+        {"id": "exercise-04", "slug": "planning-agent", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-202-frameworks",
+      "title": "Agent Frameworks in Practice",
+      "hours": 14,
+      "objectives": [
+        "Build the same agent across LangGraph, CrewAI, and AutoGen and compare tradeoffs",
+        "Use stateful graph workflows, role-based crews, and conversational patterns",
+        "Evaluate and select between competing SDKs (OpenAI Agents SDK, Google ADK, Anthropic Agent SDK, smolagents)",
+        "Apply MCP for standardized tool use"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "langgraph-stateful-agent", "hours": 3},
+        {"id": "exercise-02", "slug": "crewai-role-based-crew", "hours": 3},
+        {"id": "exercise-03", "slug": "autogen-multi-agent", "hours": 3},
+        {"id": "exercise-04", "slug": "mcp-tool-server", "hours": 3},
+        {"id": "exercise-05", "slug": "framework-tradeoff-bakeoff", "hours": 2}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-203-rag-and-memory",
+      "title": "RAG & Memory Implementation",
+      "hours": 12,
+      "objectives": [
+        "Implement retrieval-augmented generation with embeddings and a vector database",
+        "Build working, episodic, and long-term memory for agents",
+        "Implement just-in-time retrieval and conflict resolution",
+        "Build an advanced RAG pipeline (sentence-window / auto-merging retrieval) with evaluation"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "rag-pipeline-vector-db", "hours": 3},
+        {"id": "exercise-02", "slug": "agent-long-term-memory", "hours": 3},
+        {"id": "exercise-03", "slug": "advanced-rag-retrieval", "hours": 3},
+        {"id": "exercise-04", "slug": "rag-triad-evaluation", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-204-multi-agent-implementation",
+      "title": "Multi-Agent Systems Implementation",
+      "hours": 12,
+      "objectives": [
+        "Implement orchestrator-worker and handoff patterns",
+        "Wire inter-agent communication (A2A) and MCP-based tool sharing",
+        "Build sub-agent isolation with distilled returns",
+        "Implement an evaluator-optimizer self-improvement loop"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "orchestrator-worker-build", "hours": 3},
+        {"id": "exercise-02", "slug": "agent-handoffs", "hours": 3},
+        {"id": "exercise-03", "slug": "subagent-isolation", "hours": 3},
+        {"id": "exercise-04", "slug": "evaluator-optimizer-loop", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-205-evaluation-observability",
+      "title": "Evaluation & Observability Instrumentation",
+      "hours": 10,
+      "objectives": [
+        "Instrument trajectory and tool-call evaluation in code",
+        "Wire OpenTelemetry GenAI tracing and a platform (LangSmith/Langfuse/Phoenix)",
+        "Implement LLM-as-judge scoring",
+        "Build regression eval suites for agents"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "trajectory-eval-implementation", "hours": 3},
+        {"id": "exercise-02", "slug": "otel-tracing-wireup", "hours": 3},
+        {"id": "exercise-03", "slug": "llm-judge-scoring", "hours": 2},
+        {"id": "exercise-04", "slug": "agent-regression-suite", "hours": 2}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-206-guardrails-implementation",
+      "title": "Guardrails & Safety Implementation",
+      "hours": 10,
+      "objectives": [
+        "Implement input/output moderation and per-tool-call guardrails (e.g., NeMo Guardrails)",
+        "Defend against prompt injection (OWASP LLM01) in code",
+        "Enforce least-privilege tool permissions and sandboxing",
+        "Add human-approval checkpoints for high-risk actions"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "io-moderation-guardrails", "hours": 3},
+        {"id": "exercise-02", "slug": "prompt-injection-defenses", "hours": 3},
+        {"id": "exercise-03", "slug": "tool-permission-enforcement", "hours": 2},
+        {"id": "exercise-04", "slug": "human-approval-checkpoints", "hours": 2}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-207-productionizing-agents",
+      "title": "Productionizing Agents",
+      "hours": 12,
+      "objectives": [
+        "Deploy agents behind APIs (FastAPI) with containerization",
+        "Implement durable execution and resumption for long-running tasks",
+        "Apply prompt caching and model routing for cost/latency",
+        "Add human-in-the-loop with state persistence (e.g., LangGraph interrupt)"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "agent-api-deployment", "hours": 3},
+        {"id": "exercise-02", "slug": "durable-execution-temporal", "hours": 3},
+        {"id": "exercise-03", "slug": "caching-and-routing", "hours": 3},
+        {"id": "exercise-04", "slug": "hitl-with-persistence", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-201-production-multi-agent-system",
+      "title": "Capstone: Build & Deploy a Production Multi-Agent System",
+      "hours": 25,
+      "description": "Build a deep-research or domain agent (e.g., automated code reviewer, meeting co-pilot) with orchestrator-workers, memory, a tool/function-calling layer, an eval harness, OTel tracing, guardrails, and a deployed API. Taken from build to deployment with a portfolio-grade README."
+    },
+    {
+      "id": "project-202-benchmark-agent",
+      "title": "Benchmark Agent (GAIA-style)",
+      "hours": 15,
+      "description": "Build an autonomous multi-tool agent that scores on a public benchmark (GAIA-style: multimodal, tool-use, planning). Includes a reproducible eval run and leaderboard-style reporting."
+    }
+  ]
+}
