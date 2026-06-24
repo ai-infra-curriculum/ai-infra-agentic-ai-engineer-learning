@@ -6,7 +6,7 @@
 
 Builds production multi-agent systems: agent loops, tool/function calling, orchestration, RAG, memory, evaluation, and guardrails.
 
-> **Status**: scaffolded by `aicg org bootstrap-role`. The curriculum is not authored yet. Run `aicg org research` and `aicg org daily` to drive the autonomous fill-in loop.
+> **Status**: ✅ Curriculum complete — modules, lecture chapters, exercises, and quizzes authored. AI-assisted content under ongoing human review.
 
 ## Layout
 
