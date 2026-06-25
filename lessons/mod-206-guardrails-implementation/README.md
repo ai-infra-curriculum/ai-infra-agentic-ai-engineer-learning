@@ -22,7 +22,7 @@ An agent that can call tools is an agent that can do damage. The same loop that 
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions).
 
 - [exercise-01: Input/output moderation guardrails](exercises/exercise-01-io-moderation-guardrails.md) — build a moderation layer with a framework and a hand-rolled fallback.
 - [exercise-02: Prompt-injection defenses](exercises/exercise-02-prompt-injection-defenses.md) — isolate untrusted content and defeat a battery of injection payloads.

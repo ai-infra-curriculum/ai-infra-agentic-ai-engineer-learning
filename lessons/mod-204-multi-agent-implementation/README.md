@@ -24,7 +24,7 @@ Single agents hit a ceiling: one context window, one tool budget, one line of re
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions).
 
 - [exercise-01: Build an orchestrator-worker system](exercises/exercise-01-orchestrator-worker-build.md) — decompose a research task, fan out to workers, synthesize.
 - [exercise-02: Agent handoffs](exercises/exercise-02-agent-handoffs.md) — route a request through specialist agents with clean control transfer.

@@ -22,7 +22,7 @@ An agent that can't retrieve and can't remember is a stateless function with a s
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions).
 
 - [exercise-01: Build a RAG pipeline on a vector DB](exercises/exercise-01-rag-pipeline-vector-db.md) — chunk, embed, store, retrieve, and ground a generation.
 - [exercise-02: Agent long-term memory](exercises/exercise-02-agent-long-term-memory.md) — working, episodic, and long-term tiers with write and recall.

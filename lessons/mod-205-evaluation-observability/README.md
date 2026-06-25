@@ -22,7 +22,7 @@ You can't improve what you can't see, and you can't ship what you can't measure.
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions).
 
 - [exercise-01: Trajectory eval implementation](exercises/exercise-01-trajectory-eval-implementation.md) — capture an agent's trajectory and score tool-call correctness and order.
 - [exercise-02: OpenTelemetry tracing wire-up](exercises/exercise-02-otel-tracing-wireup.md) — instrument an agent with GenAI spans and export to a platform.

@@ -22,7 +22,7 @@ A prototype agent runs in a notebook, on your machine, when you babysit it. A *p
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions).
 
 - [exercise-01: Agent API deployment](exercises/exercise-01-agent-api-deployment.md) — wrap an agent in FastAPI, add streaming and a background job, containerize it.
 - [exercise-02: Durable execution with Temporal](exercises/exercise-02-durable-execution-temporal.md) — make a multi-step agent run survive a worker crash and resume.

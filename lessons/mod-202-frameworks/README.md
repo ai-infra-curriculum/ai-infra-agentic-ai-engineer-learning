@@ -25,7 +25,7 @@ You can build agents from scratch — and after [mod-204](../mod-204-multi-agent
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions).
 
 - [exercise-01: LangGraph stateful agent](exercises/exercise-01-langgraph-stateful-agent.md) — build a research agent as a typed state graph with a tool loop and a checkpointer.
 - [exercise-02: CrewAI role-based crew](exercises/exercise-02-crewai-role-based-crew.md) — the same task as a crew of specialist roles with sequential and hierarchical processes.

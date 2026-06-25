@@ -41,7 +41,7 @@ them.
 Total: ~13 hours of structured work. Add reading and debugging on top.
 
 Exercise prompts live here; reference solutions live in the paired
-[`ai-infra-agentic-ai-engineer-solutions`](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions)
+[`ai-infra-agentic-ai-engineer-solutions`](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions)
 repo. Try the exercise before consulting the solution.
 
 ## Structure

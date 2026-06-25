@@ -12,7 +12,7 @@ Build production multi-agent systems from the loop up: agent fundamentals, frame
 
 ## 🎯 Overview
 
-This is the **build-altitude** rung of the agentic track (level 30). Where the [Agentic AI Developer](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-developer-learning) rung gets you *using* agents, this track gets you *building and operating* them. Across seven modules you'll implement the reason-act loop by hand, drive real frameworks (LangGraph, CrewAI, AutoGen), ground agents with retrieval and memory, coordinate multi-agent systems, instrument evaluation and tracing, wrap the whole thing in guardrails, and ship it behind a durable, cost-aware API.
+This is the **build-altitude** rung of the agentic track (level 30). Where the [Agentic AI Developer](https://github.com/ai-engineering-curriculum/agentic-ai-developer-learning) rung gets you *using* agents, this track gets you *building and operating* them. Across seven modules you'll implement the reason-act loop by hand, drive real frameworks (LangGraph, CrewAI, AutoGen), ground agents with retrieval and memory, coordinate multi-agent systems, instrument evaluation and tracing, wrap the whole thing in guardrails, and ship it behind a durable, cost-aware API.
 
 Every module is hands-on. You write the coordination logic before you trust a framework to do it, and you measure agent behavior — the *trajectory*, not just the final answer — so "it feels better" becomes a number you can gate on in CI.
 
@@ -63,7 +63,7 @@ Capstones that combine multiple modules into a portfolio-grade build.
 
 This is the engineer rung of the agentic track. Before starting, you should have:
 
-- **The [Agentic AI Developer](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-developer-learning) rung** (recommended) — the rung directly below this one. It covers using agents and tools; this track covers building and operating them.
+- **The [Agentic AI Developer](https://github.com/ai-engineering-curriculum/agentic-ai-developer-learning) rung** (recommended) — the rung directly below this one. It covers using agents and tools; this track covers building and operating them.
 - **Intermediate Python**, including comfort with `async`/`await` — workers run concurrently and most services are async.
 - **A model-provider API key** with a small spend cap. The exercises make real model calls.
 - **Familiarity with HTTP, Docker, and a vector store** you can run locally (pgvector, Chroma, or Qdrant) — introduced where needed, not assumed in depth.
@@ -76,7 +76,7 @@ See [PREREQUISITES.md](./PREREQUISITES.md) for the full entry-skills checklist.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning.git
+git clone https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning.git
 cd ai-infra-agentic-ai-engineer-learning
 
 # 2. Create and activate a virtual environment
@@ -144,7 +144,7 @@ Bridge from "works on my laptop" to "serves traffic." Put an agent behind a Fast
 
 Reference implementations for every exercise and project live in the paired solutions repository:
 
-**[ai-infra-agentic-ai-engineer-solutions](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions)**
+**[ai-infra-agentic-ai-engineer-solutions](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-solutions)**
 
 Try each exercise first; reach for the solutions repo to check your approach or when you're stuck.
 
@@ -154,9 +154,9 @@ Try each exercise first; reach for the solutions repo to check your approach or 
 
 The agentic track has three rungs. This repository is the middle one.
 
-1. [Agentic AI Developer](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-developer-learning) — using agents and tools.
+1. [Agentic AI Developer](https://github.com/ai-engineering-curriculum/agentic-ai-developer-learning) — using agents and tools.
 2. **Agentic AI Engineer** (this repo) — building and operating production agent systems.
-3. [Agentic Systems Architect](https://github.com/ai-infra-curriculum/ai-infra-agentic-systems-architect-learning) — designing agentic platforms at scale.
+3. [Agentic Systems Architect](https://github.com/ai-engineering-curriculum/agentic-systems-architect-learning) — designing agentic platforms at scale.
 
 ---
 
